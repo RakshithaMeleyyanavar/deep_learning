@@ -1,0 +1,5 @@
+conda create -n dl_lab python=3.12 -y
+conda activate dl_lab
+python -m pip install tensorflow pandas numpy scikit-learn matplotlib jupyter ipykernel
+python -m ipykernel install --user --name dl_lab --display-name "Deep Learning Lab"
+jupyter notebook
